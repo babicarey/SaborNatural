@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fdf8f2;
+}
+
+@font-face {
+  font-family: Inria-Serif;
+  src: url(./Font/Inria_Serif.zip);
+}
+
+:root {
+  --Amarelo-SN: #ffc548;
+  --Verde-SN: #1B5629;
+  --Verde-Escuro-SN: #48DA6A;
+  --Fundo-site:
+}
+
+.banner {
+  background-image: url(./IMG/Banner01.png);
+  width: 1920px;
+  height: 447px;
+  background-repeat: no-repeat;
+  object-fit: none;
+}
+
+.anuncio img {
+  border-radius: 20px;
+
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefaf2;
+  color: #333;
+}
+
+
+
+
+
+
+header img {
+  width: 150px;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fdf8ee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  background: #f2dfb0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.hero {
+  height: 800px;
+  background-position: 0 -10px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-position: 0 -10px;
+}
+
+.conteudo-banner img {
+  max-width: 380px;
+  width: 50%;
+}
+
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+footer {
+  background: #fdf8ee;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.socials i {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefaf2;
+  color: #333;
+
+
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fdf8ee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  background: #f2dfb0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+footer {
+  background: #fdf8ee;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.button {
+  color: #f2dfb0;
+}
+
+
+.nova {
+
+  background-image: url(./IMG/nova.jpg);
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+
+}
+
+.anuncio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
